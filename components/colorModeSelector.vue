@@ -10,9 +10,7 @@ const nextMode = computed(() => {
   return modes[nextIndex]
 })
 
-const toggleColorMode = () => {
-    colorMode.preference = nextMode.value || 'system';
-};
+const toggleColorMode = () => colorMode.preference = nextMode.value || 'system';
 
 </script>
 <template>

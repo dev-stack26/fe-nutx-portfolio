@@ -14,8 +14,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxt/eslint',
+    '@nuxt/content',
   ],
-   tailwindcss: {
+  tailwindcss: {
     exposeConfig: true,
     viewer: true,
   }

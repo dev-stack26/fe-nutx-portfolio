@@ -126,6 +126,37 @@ modules: [
 
 ```
 
+### 4. Nuxt content
+https://content.nuxt.com/docs/getting-started/installation
+
+``` bash
+npm install @nuxtjs/content
+
+#add nuxt content module
+modules: [
+  '@nuxtjs/tailwindcss',
+  '@nuxtjs/color-mode',
+  '@nuxt/eslint',
+  '@nuxt/content',
+],
+
+#add nuxt content config
+content.config.ts
+```
+
+
+### 4. Taiwind typhography plugin
+https://content.nuxt.com/docs/getting-started/installation
+
+``` bash
+npm install -D @tailwindcss/typography
+
+#add nuxt content config
+
+```
+
+
+
 ### Plugins
 #### 1. Vue (Official)
 #### 2. Prettier ESLint Typescript

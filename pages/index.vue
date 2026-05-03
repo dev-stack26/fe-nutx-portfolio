@@ -13,5 +13,7 @@ useSeoMeta({
 })
 </script>
 <template>
-    <div>hello from main page</div>
+  <div>Home [page]</div>
 </template>
+
+
