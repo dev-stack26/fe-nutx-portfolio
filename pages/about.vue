@@ -5,5 +5,7 @@ useHead({
 </script>
 
 <template>
-    <div>hello from main about</div>
+    <div>
+      <ContentRenderer path="/about" :value="{}" class="prose dark:prose-invert" />
+    </div>
 </template>
