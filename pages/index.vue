@@ -9,24 +9,22 @@ useSeoMeta({
   twitterTitle: 'main page',
   twitterDescription: 'main page',
   twitterImage: 'main page',
-  twitterCard: 'summary'
-})
+  twitterCard: 'summary',
+});
 
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: 'en',
   },
   link: [
     {
       rel: 'icon',
       type: 'image/png',
-      href: '/favicon.png'
-    }
-  ]
-})
+      href: '/favicon.png',
+    },
+  ],
+});
 </script>
 <template>
   <div>Home [page]</div>
 </template>
-
-

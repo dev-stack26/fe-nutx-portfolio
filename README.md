@@ -81,10 +81,10 @@ bun run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-
 # Install
 
 ### 1. Tailwind
+
 https://tailwindcss.nuxtjs.org/getting-started/installation
 
 ```bash
@@ -114,7 +114,7 @@ export default defineNuxtConfig({
 
 ### 3. Color mode
 
-``` bash
+```bash
 npm install @nuxtjs/color-mode
 
 #add color mode
@@ -127,9 +127,10 @@ modules: [
 ```
 
 ### 4. Nuxt content
+
 https://content.nuxt.com/docs/getting-started/installation
 
-``` bash
+```bash
 npm install @nuxtjs/content
 
 #add nuxt content module
@@ -144,20 +145,21 @@ modules: [
 content.config.ts
 ```
 
-
 ### 4. Taiwind typhography plugin
+
 https://content.nuxt.com/docs/getting-started/installation
 
-``` bash
+```bash
 npm install -D @tailwindcss/typography
 
 #add nuxt content config
 
 ```
 
-
-
 ### Plugins
+
 #### 1. Vue (Official)
+
 #### 2. Prettier ESLint Typescript
+
 #### 3. Tailwind CSS IntelliSense

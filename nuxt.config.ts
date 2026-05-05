@@ -16,8 +16,26 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/content',
   ],
+  content: {
+    build: {
+      markdown: {
+        toc: {
+          depth: 3, // include h3 headings
+        },
+        highlight: {
+          langs: ['java', 'c', 'cpp', 'html', 'javascript'],
+          theme: {
+            default: 'min-dark',
+            light: 'min-light',
+            dark: 'min-dark',
+            system: 'monokai',
+          },
+        },
+      },
+    },
+  },
   tailwindcss: {
     exposeConfig: true,
     viewer: true,
-  }
-})
+  },
+});

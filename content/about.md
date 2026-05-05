@@ -1,6 +1,7 @@
 ---
-title: "about tile"
-description: "meta description of the page"
+title: 'about tile'
+description: 'meta description of the page'
+date: 2010-11-11
 ---
 
 # Hello There, I'm Piotr

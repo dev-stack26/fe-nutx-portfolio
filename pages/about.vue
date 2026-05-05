@@ -1,11 +1,11 @@
 <script setup lang="ts">
 useHead({
   title: 'About',
-})
+});
 </script>
 
 <template>
-    <div>
-      <ContentRenderer path="/about" :value="{}" class="prose dark:prose-invert" />
-    </div>
+  <div class="prose dark:prose-invert">
+    <ContentRenderer path="/about" :value="{}" />
+  </div>
 </template>
