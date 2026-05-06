@@ -42,11 +42,12 @@ const posts = computed(() => {
       <li v-for="post in posts" :key="post.path">
         <NuxtLink
           :to="post.path"
-          class="flex flex-row gap-5 hover:bg-gray-100 dark:hover:bg-gray-800"
+          class="flex flex-row gap-5 group hover:bg-gray-100 dark:hover:bg-gray-800"
         >
           <div
             :class="{
-              'text-white dark:text-gray-900': !post.displayYear,
+              'text-white group:hover:text-gray-100 dark:text-gray-900 dark:group-hover:text-gray-800':
+                !post.displayYear,
               'text-gray-400 dark:text-gray-500': post.displayYear,
             }"
           >
